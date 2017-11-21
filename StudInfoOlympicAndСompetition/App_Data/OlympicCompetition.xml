@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOlympicCompetition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OlympicCompetition>
+    <Id>11</Id>
+    <Type>Olympic</Type>
+    <Name>Compyter Science</Name>
+    <City>Kyiv</City>
+    <Stage>Third</Stage>
+    <DataStart>2016-05-20T00:00:00</DataStart>
+    <DataEnd>2016-11-12T00:00:00</DataEnd>
+  </OlympicCompetition>
+  <OlympicCompetition>
+    <Id>13</Id>
+    <Type>Competition</Type>
+    <Name>Compyter Science</Name>
+    <City>Kharkiv</City>
+    <Stage>First</Stage>
+    <DataStart>2013-11-12T00:00:00</DataStart>
+    <DataEnd>2014-11-12T00:00:00</DataEnd>
+  </OlympicCompetition>
+  <OlympicCompetition>
+    <Id>3</Id>
+    <Type>Competition</Type>
+    <Name>Compyter Science</Name>
+    <City>Kharkiv</City>
+    <Stage>Third</Stage>
+    <DataStart>2016-05-20T00:00:00</DataStart>
+    <DataEnd>2018-04-05T00:00:00</DataEnd>
+  </OlympicCompetition>
+</ArrayOfOlympicCompetition>

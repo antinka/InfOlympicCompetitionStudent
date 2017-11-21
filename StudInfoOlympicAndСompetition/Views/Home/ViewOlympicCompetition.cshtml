@@ -1,0 +1,75 @@
+﻿@model IEnumerable<StudInfoOlympicAndСompetition.Models.OlympicCompetition>
+
+@{
+    ViewBag.Title = "ViewOlympicCompetition";
+}
+<h2>
+    </h2>
+
+    <p>
+        @Html.ActionLink("Create New Olympic/Competition", "AddOlympicCompetition")
+    </p>
+<form method="get">
+   
+    <label class="col-sm-2 col-form-label">Type olympic competiton </label>
+    @Html.DropDownList("TypeOlyComp", ViewBag.TypeOlyComp as SelectList, "all", new { @class = "form-control" })
+    <label class="col-sm-2 col-form-label">Name olympic competiton</label>
+    @Html.DropDownList("NameOlComp", ViewBag.NameOlComp as SelectList, "all", new { @class = "form-control" })
+    <label class="col-sm-2 col-form-label">City olympic competiton</label>
+    @Html.DropDownList("CityOlyComp", ViewBag.CityOlyComp as SelectList, "all", new { @class = "form-control" })
+
+    <input type="submit" value="filter" class="btn btn-default" />
+
+</form>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataEnd)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataStart)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataEnd)
+                </td>
+                <td>
+                    @Html.ActionLink("Details about Olympic/Competition", "DetailsOlympicCompetitio", new { id = item.Id }) |
+                    @Html.ActionLink("Delete Olympic/Competition", "DeleteOlympicCompetition", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>

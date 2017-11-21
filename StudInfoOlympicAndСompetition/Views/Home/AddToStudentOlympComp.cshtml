@@ -1,0 +1,72 @@
+﻿
+@model IEnumerable<StudInfoOlympicAndСompetition.Models.OlympicCompetition>
+
+@{
+    ViewBag.Title = "AddToStudentOlympComp";
+}
+<h2></h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+             @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataStart)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataEnd)
+        </th>
+    </tr>
+    @using (Html.BeginForm())
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <input type="checkbox" name="selectedOlympComp" value="@item.Id"
+                           @foreach (var i in ViewBag.OlympCopm) { @(item.Id.Equals(i) ? "checked=\"checked\"" : "")  } />@item.Name<br />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stage)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataStart)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataEnd)
+                    </td>
+                </tr>
+        }
+
+        <input type="hidden" name="idStud" value="@ViewBag.id" />
+        <tr>
+            <td>
+                <input type="submit" value="save" />
+            </td>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>     
+    }
+
+</table>
+

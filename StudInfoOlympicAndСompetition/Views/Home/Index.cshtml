@@ -1,0 +1,97 @@
+﻿@model IEnumerable<StudInfoOlympicAndСompetition.Models.ForViews.StudOlympicCompetition>
+
+@{
+    ViewBag.Title = "Information";
+}
+
+<h2>Information</h2>
+
+<div class="form-horizontal">
+    <form method="get">
+        <label class="col-sm-2 col-form-label">Course Student</label>
+                @Html.DropDownList("CourseStud", ViewBag.CourseStud as SelectList, "all", new { @class = "form-control" })
+           <label class="col-sm-2 col-form-label">Type olympic competiton </label>
+                    @Html.DropDownList("TypeOlyComp", ViewBag.TypeOlyComp as SelectList, "all", new { @class = "form-control" })
+            <label class="col-sm-2 col-form-label">Name olympic competiton</label>
+            @Html.DropDownList("NameOlComp", ViewBag.NameOlComp as SelectList, "all", new { @class = "form-control" })
+            <label class="col-sm-2 col-form-label">City olympic competiton</label>
+            @Html.DropDownList("CityOlyComp", ViewBag.CityOlyComp as SelectList, "all", new { @class = "form-control" })
+
+
+           
+<input type="submit" value="filter" class="btn btn-default" />
+
+</form>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NameStudent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgeStudent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GroupStudent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseStudent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeOlyComp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameOlyComp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CityOlyComp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StageOlyComp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataStartOlyComp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataEndOlyComp)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameStudent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgeStudent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GroupStudent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseStudent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeOlyComp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameOlyComp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityOlyComp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StageOlyComp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataStartOlyComp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataEndOlyComp)
+            </td>
+        </tr>
+    }
+
+</table>
+</div>

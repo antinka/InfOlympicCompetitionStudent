@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudOlympComp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudOlympComp>
+    <IdStud>2</IdStud>
+    <IdSOlympComp>11</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>2</IdStud>
+    <IdSOlympComp>13</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>2</IdStud>
+    <IdSOlympComp>3</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>3</IdStud>
+    <IdSOlympComp>11</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>3</IdStud>
+    <IdSOlympComp>13</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>3</IdStud>
+    <IdSOlympComp>3</IdSOlympComp>
+  </StudOlympComp>
+</ArrayOfStudOlympComp>

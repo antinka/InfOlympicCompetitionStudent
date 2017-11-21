@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Id>2</Id>
+    <Name>Oleg Sidorov</Name>
+    <Age>16</Age>
+    <Group>KI-17</Group>
+    <Course>3</Course>
+  </Student>
+  <Student>
+    <Id>3</Id>
+    <Name>Ivan Ivanov</Name>
+    <Age>20</Age>
+    <Group>KI-18</Group>
+    <Course>4</Course>
+  </Student>
+</ArrayOfStudent>
