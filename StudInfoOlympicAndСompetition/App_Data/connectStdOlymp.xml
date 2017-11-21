@@ -6,11 +6,43 @@
   </StudOlympComp>
   <StudOlympComp>
     <IdStud>2</IdStud>
+    <IdSOlympComp>22</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>5</IdStud>
+    <IdSOlympComp>11</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>5</IdStud>
     <IdSOlympComp>13</IdSOlympComp>
   </StudOlympComp>
   <StudOlympComp>
-    <IdStud>2</IdStud>
+    <IdStud>5</IdStud>
     <IdSOlympComp>3</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>5</IdStud>
+    <IdSOlympComp>22</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>25</IdStud>
+    <IdSOlympComp>13</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>25</IdStud>
+    <IdSOlympComp>3</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>12</IdStud>
+    <IdSOlympComp>11</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>12</IdStud>
+    <IdSOlympComp>3</IdSOlympComp>
+  </StudOlympComp>
+  <StudOlympComp>
+    <IdStud>12</IdStud>
+    <IdSOlympComp>22</IdSOlympComp>
   </StudOlympComp>
   <StudOlympComp>
     <IdStud>3</IdStud>
@@ -19,9 +51,5 @@
   <StudOlympComp>
     <IdStud>3</IdStud>
     <IdSOlympComp>13</IdSOlympComp>
-  </StudOlympComp>
-  <StudOlympComp>
-    <IdStud>3</IdStud>
-    <IdSOlympComp>3</IdSOlympComp>
   </StudOlympComp>
 </ArrayOfStudOlympComp>

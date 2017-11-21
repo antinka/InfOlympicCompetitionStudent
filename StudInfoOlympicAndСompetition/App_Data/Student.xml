@@ -14,4 +14,25 @@
     <Group>KI-18</Group>
     <Course>4</Course>
   </Student>
+  <Student>
+    <Id>5</Id>
+    <Name>Alina Sidorova</Name>
+    <Age>20</Age>
+    <Group>KI-15</Group>
+    <Course>6</Course>
+  </Student>
+  <Student>
+    <Id>12</Id>
+    <Name>Ivan Sidorov</Name>
+    <Age>31</Age>
+    <Group>SI-17</Group>
+    <Course>3</Course>
+  </Student>
+  <Student>
+    <Id>25</Id>
+    <Name>Ira Ivanova</Name>
+    <Age>24</Age>
+    <Group>SI-17</Group>
+    <Course>3</Course>
+  </Student>
 </ArrayOfStudent>
